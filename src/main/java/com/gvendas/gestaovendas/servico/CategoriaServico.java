@@ -19,7 +19,12 @@ public class CategoriaServico {
     public List<Categoria> listarTodas(){
         return categoriaRepositorio.findAll();
     }
+    
     public Optional<Categoria> buscarPorId(Long codigo){
         return categoriaRepositorio.findById(codigo);
+    }
+
+    public Categoria salvar(Categoria categoria){
+        return categoriaRepositorio.save(categoria);
     }
 }

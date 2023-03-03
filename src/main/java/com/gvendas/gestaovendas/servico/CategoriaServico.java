@@ -10,8 +10,6 @@ import org.springframework.stereotype.Service;
 
 import com.gvendas.gestaovendas.repositorio.CategoriaRepositorio;
 
-import ch.qos.logback.core.joran.util.beans.BeanUtil;
-
 import com.gvendas.gestaovendas.entidades.Categoria;
 
 
